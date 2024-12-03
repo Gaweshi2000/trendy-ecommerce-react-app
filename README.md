@@ -8,7 +8,7 @@ Trendy is a modern e-commerce application for clothing items built with **React*
 
 ### 🔒 Authentication
 
-- **Signup** and **Login** functionality for user accounts.
+- **Signup** , **Login** and **Logout** functionality for user accounts.
 
 ### 🛍️ Products
 
@@ -73,4 +73,6 @@ Follow these steps to set up the project locally:
 
 ## Demo
 
-![App Demo](./src/assets/trendyapp.gif)
+![App Demo Desktop View](./src/assets/trendyapp.gif)
+
+![App Demo Mobile View](./src/assets//trendyapp-mobileview.gif)
