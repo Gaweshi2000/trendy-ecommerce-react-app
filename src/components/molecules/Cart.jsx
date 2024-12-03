@@ -23,7 +23,7 @@ export default function Cart() {
   );
 
   /**
-   * Format the total price to LKR currency format.
+   * Format the total price.
    */
   const formattedTotalPrice = `LKR ${totalPrice.toFixed(2)}`;
 

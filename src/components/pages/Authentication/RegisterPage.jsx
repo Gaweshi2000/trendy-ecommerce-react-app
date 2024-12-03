@@ -1,7 +1,13 @@
 import RegisterForm from "../../organisms/RegisterForm";
 import fashionImage from "../../../assets/bg9.jpg";
 
-// RegisterPage Component: A layout for the registration page, combining a form and an image
+/**
+ * RegisterPage Component
+ *
+ * Acts as a container for the `RegisterForm` component.
+ * @component
+ * @returns {JSX.Element} Rendered RegisterPage component.
+ */
 function RegisterPage() {
   return (
     <div className="flex items-center justify-center">

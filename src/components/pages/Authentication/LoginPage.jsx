@@ -2,7 +2,13 @@ import React from "react";
 import LoginForm from "../../organisms/LoginForm";
 import fashionImage from "../../../assets/bg8.jpg";
 
-// LoginPage Component: A layout for the login page, combining a form and an image
+/**
+ * LoginPage Component
+ *
+ * Acts as a container for the `LoginForm` component.
+ * @component
+ * @returns {JSX.Element} Rendered LoginPage component.
+ */
 function LoginPage() {
   return (
     <div className="flex items-center justify-center">
