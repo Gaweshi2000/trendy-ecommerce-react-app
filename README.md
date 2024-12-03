@@ -49,5 +49,28 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
 
    ```bash
-
+   git clone https://github.com/Gaweshi2000/trendy-ecommerce-react-app.git
+   cd trendy-ecommerce-react-app
    ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the app in your browser:
+
+   ```bash
+   http://localhost:5173
+   ```
+
+## Demo
+
+![App Demo](./src/assets/trendyapp.gif)

@@ -10,6 +10,7 @@ import "./App.css";
 import { useContext } from "react";
 import { AuthContext } from "./store/auth-context";
 import ProtectedRoute from "./components/ProtectedRoute";
+import NotFound from "./components/pages/NotFound/NotFound";
 
 /**
  * Component to handle redirecting authenticated users away from login/register pages.
@@ -47,6 +48,11 @@ const router = createBrowserRouter([
         <RegisterPage />
       </AuthRedirect>
     ),
+  },
+
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
